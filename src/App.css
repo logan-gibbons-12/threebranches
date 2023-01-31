@@ -71,24 +71,45 @@
 			to bottom,
 			rgba(1, 5, 75, 1),
 			rgba(23, 54, 228, 0.52),
-      rgba(1, 5, 75, 1)
+      rgba(1, 5, 75, 1) 73%
 		),
 		url('https://media.istockphoto.com/id/1172301402/photo/united-states-supreme-court.jpg?s=612x612&w=0&k=20&c=Wtc2e1X5Z5wgNxQzqQefaWpw8aILj4Fclyy4iKmEK3s=');
 	background-repeat: no-repeat;
 	background-position: center top;
+  background-size: 612px;
 	width: 33.33%;
 }
 
 .executive {
 	float: middle;
 	height: 1000px;
-	background-color: rgb(1, 90, 75);
+	background-color: rgb(1, 5, 75);
+  background-image: linear-gradient(
+			to bottom,
+			rgba(1, 5, 75, 1),
+			rgba(23, 54, 228, 0.52),
+      rgba(1, 5, 75, 1) 60%
+		),
+		url('https://ashbygraff.com/wp-content/uploads/2019/02/clinton-oval-office.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 750px;
 	width: 33.33%;
 }
 
 .legislative {
 	float: right;
 	height: 1000px;
-	background-color: rgb(1, 150, 75);
+	background-color: rgb(1, 5, 75);
+  background-image: linear-gradient(
+			to bottom,
+			rgba(1, 5, 75, 1),
+			rgba(23, 54, 228, 0.52),
+      rgba(1, 5, 75, 1) 60%
+		),
+		url('https://images.unsplash.com/photo-1594664034718-c2ecef145dfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbmdyZXNzfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 750px;
 	width: 33.33%;
 }
