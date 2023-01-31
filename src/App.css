@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+	margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header__comp {
+	text-align: center;
+	background-image: linear-gradient(
+			to top,
+			rgba(1, 5, 75, 1),
+			rgba(23, 54, 228, 0.52)
+		),
+		url('https://uploads.mwp.mprod.getusinfo.com/uploads/sites/23/2021/06/31459954003_d25a671eac_b.jpg');
+	/* background-image: linear-gradient(
+			to top,
+			rgba(1, 5, 75, 0.99),
+      rgba(23, 54, 228, 0.32)
+		),
+		url('https://www.thoughtco.com/thmb/x0gbUnMlJVIJ6bwF02VQd9gWZu8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/UScap-58c8072e3df78c353c17e961.jpg'); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1500px 1000px;
+	height: 1000px;
+	margin: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+	font-family: 'Great Vibes', cursive;
+	font-size: 10rem;
+	font-weight: 300;
+	position: relative;
+	top: 300px;
+	color: rgb(219, 219, 219);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.theses__comp {
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+  padding-top: 30px;
+	padding-bottom: 70px;
+	background-color: rgb(1, 5, 75);
+	height: 50vh;
+	color: rgb(219, 219, 219);
+	font-size: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.slide-in {
+	transform: translateX(-100%);
+	opacity: 0;
+	transition: all 1s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slide-in.visible {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.collumns__comp {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.judicial {
+	float: left;
+	height: 1000px;
+	background-color: rgb(1, 5, 75);
+	background-image: linear-gradient(
+			to bottom,
+			rgba(1, 5, 75, 1),
+			rgba(23, 54, 228, 0.52),
+      rgba(1, 5, 75, 1)
+		),
+		url('https://media.istockphoto.com/id/1172301402/photo/united-states-supreme-court.jpg?s=612x612&w=0&k=20&c=Wtc2e1X5Z5wgNxQzqQefaWpw8aILj4Fclyy4iKmEK3s=');
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 33.33%;
+}
+
+.executive {
+	float: middle;
+	height: 1000px;
+	background-color: rgb(1, 90, 75);
+	width: 33.33%;
+}
+
+.legislative {
+	float: right;
+	height: 1000px;
+	background-color: rgb(1, 150, 75);
+	width: 33.33%;
 }
