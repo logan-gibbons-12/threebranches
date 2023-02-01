@@ -67,7 +67,7 @@
 .slide-in-collumns {
 	/* transform: translateX(-100%); */
 	opacity: 0;
-	transition: all 2s ease-in-out;
+	transition: all 2.3s ease-in-out;
   color: rgb(219, 219, 219);
   text-align: center;
   font-size: 5rem;
@@ -81,14 +81,14 @@
 
 .collumn-j {
   padding: 38px;
-  margin: 22px;
+  margin: 22px 22px 0px;
   font-size: 1.3rem;
   transition: all 0.9s ease-in-out;
   transform: scale(1);
   color: rgb(219, 219, 219);
 }
 
-.collumn-hover-j {
+.collumn-j:hover {
   padding: 38px;
   top: 0;
   transform: scale(1.1);
@@ -101,14 +101,14 @@
 
 .collumn-e {
   padding: 38px;
-  margin: 22px;
+  margin: 22px 22px 0px;
   font-size: 1.3rem;
   transition: all 0.9s ease-in-out;
   transform: scale(1);
   color: rgb(219, 219, 219);
 }
 
-.collumn-hover-e {
+.collumn-e:hover {
   padding: 38px;
   top: 0;
   transform: scale(1.1);
@@ -121,14 +121,14 @@
 
 .collumn-l {
   padding: 38px;
-  margin: 22px;
+  margin: 22px 22px 0px;
   font-size: 1.3rem;
   transition: all 0.9s ease-in-out;
   transform: scale(1);
   color: rgb(219, 219, 219);
 }
 
-.collumn-hover-l {
+.collumn-l:hover {
   padding: 38px;
   top: 0;
   transform: scale(1.1);

@@ -2,23 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const Collumns = () => {
 	const [isVisible, setIsVisible] = useState(false);
-    const ref = useRef(null);
-    const [hover, setHover] = useState(false);
-		const hoverRef = useRef(null);
-
-		useEffect(() => {
-			const handleMouseEnter = () => setHover(true);
-			const handleMouseLeave = () => setHover(false);
-
-			hoverRef.current.addEventListener('mouseenter', handleMouseEnter);
-			hoverRef.current.addEventListener('mouseleave', handleMouseLeave);
-
-			return () => {
-				hoverRef.current.removeEventListener('mouseenter', handleMouseEnter);
-				hoverRef.current.removeEventListener('mouseleave', handleMouseLeave);
-			};
-		}, []);
-
+	const ref = useRef(null);
 
 	useEffect(() => {
 		const observer = new IntersectionObserver((entries) => {
@@ -43,10 +27,7 @@ const Collumns = () => {
 				>
 					Judicial Branch
 				</div>
-				<div
-					ref={hoverRef}
-					className={`collumn-j ${hover ? 'collumn-hover-j' : ''}`}
-				>
+				<div className="collumn-j">
 					The judicial branch of government is responsible for interpreting the
 					laws and the Constitution and serving as a neutral party in legal
 					disputes. It comprises of a system of federal and state courts, with
@@ -67,10 +48,7 @@ const Collumns = () => {
 				>
 					Executive Branch
 				</div>
-				<div
-					ref={hoverRef}
-					className={`collumn-e ${hover ? 'collumn-hover-e' : ''}`}
-				>
+				<div className="collumn-e">
 					The executive branch of government is responsible for enforcing laws
 					and policies and carrying out the day-to-day administration of the
 					government. It is headed by the President, who serves as the Chief
@@ -92,10 +70,7 @@ const Collumns = () => {
 				>
 					Legislative Branch
 				</div>
-				<div
-					ref={hoverRef}
-					className={`collumn-l ${hover ? 'collumn-hover-l' : ''}`}
-				>
+				<div className="collumn-l">
 					The legislative branch of government is responsible for making laws.
 					In the United States, it is comprised of two houses: the Senate and
 					the House of Representatives. Members of the legislative branch are
