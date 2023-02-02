@@ -97,6 +97,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   color: rgb(255, 255, 255);
+  border-radius: 15px;
 }
 
 .collumn-e {
@@ -117,6 +118,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   color: rgb(255, 255, 255);
+  border-radius: 15px;
 }
 
 .collumn-l {
@@ -137,6 +139,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   color: rgb(255, 255, 255);
+  border-radius: 15px;
 }
 
 .judicial {
@@ -224,4 +227,125 @@
   text-align: center;
   font-size: 5rem;
   padding-top: 10rem;
+}
+
+.comparosin__comp {
+  height: 500px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1, 5, 75, 1) 20%, 
+      rgba(219, 219, 219, 1) 
+    );
+  /* text-align: bottom; */
+}
+
+.powers__comp {
+  height: 1900px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(219, 219, 219, 1) ,
+      rgba(219, 219, 219, 0.087) , 
+      rgba(219, 219, 219, 1) 
+    );
+  
+  justify-content: space-evenly;
+}
+
+.judicial__powers {
+  height: 700px;
+  text-align: center;
+  padding-top: 20px;
+  color: rgba(1, 5, 75, 1);
+  font-size: 3rem;
+  background-image: linear-gradient(
+      to right,
+       rgba(219, 219, 219, 1) 45%,
+       rgba(219, 219, 219, 0.306)
+    ),
+    url("https://media.cnn.com/api/v1/images/stellar/prod/221031154056-01-scotus-affirmative-action-sketch.jpg?c=original");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.jpowertext {
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 900px;
+  font-size: 1.9rem;
+}
+
+.jpowerani {
+  opacity: 0;
+  transition: all 1.5s ease-in-out;
+}
+
+.jpowerani.visible {
+  opacity: 1;
+}
+
+.executive__powers {
+  height: 700px;
+  text-align: center;
+  padding-top: 20px;
+  color: rgba(1, 5, 75, 1);
+  font-size: 3rem;
+  background-image: linear-gradient(
+      to right,
+       rgba(219, 219, 219, 1) 45%,
+       rgba(219, 219, 219, 0.306)
+    ),
+    url("https://obamawhitehouse.archives.gov/sites/default/files/image/image_file/p011614ps-0525.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.epowertext {
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 900px;
+  font-size: 1.8rem;
+}
+
+.epowerani {
+  opacity: 0;
+  transition: all 1.5s ease-in-out;
+}
+
+.epowerani.visible {
+  opacity: 1;
+}
+
+.legislative__powers {
+  height: 700px;
+  text-align: center;
+  padding-top: 20px;
+  color: rgba(1, 5, 75, 1);
+  font-size: 3rem;
+  background-image: linear-gradient(
+      to right,
+       rgba(219, 219, 219, 1) 45%,
+       rgba(219, 219, 219, 0.306)
+    ),
+    url("https://static.timesofisrael.com/www/uploads/2012/05/Obama_Health_Care_Speech_to_Joint_Session_of_Congress.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.lpowertext {
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 900px;
+  font-size: 1.8rem;
+}
+
+.lpowerani {
+  opacity: 0;
+  transition: all 1.5s ease-in-out;
+}
+
+.lpowerani.visible {
+  opacity: 1;
 }
