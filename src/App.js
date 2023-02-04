@@ -1,9 +1,10 @@
 import './App.css';
 import Collumns from './components/Collumns';
-import Comparosin from './components/Comparosin';
+import Transition from './components/Transition';
 import Header from './components/Header';
 import Theses from './components/Theses';
 import Powers from './components/Powers';
+import Comparing from './components/Comparing';
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Header />
       <Theses />
       <Collumns />
-      <Comparosin />
+      <Transition />
       <Powers />
+      <Comparing />
     </div>
   );
 }

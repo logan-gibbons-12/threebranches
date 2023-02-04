@@ -229,22 +229,28 @@
   padding-top: 10rem;
 }
 
-.comparosin__comp {
-  height: 500px;
+.transition__comp {
+  height: 700px;
   background-image: linear-gradient(
       to bottom,
-      rgba(1, 5, 75, 1) 20%, 
-      rgba(219, 219, 219, 1) 
+      rgba(1, 5, 75, 1) 25% , 
+    rgba(219, 219, 219, 1)  
     );
-  /* text-align: bottom; */
+  text-align: center;
+}
+
+.title-power {
+  color: rgb(219, 219, 219);
+  font-size: 25rem;
+  padding-top: 35px;
 }
 
 .powers__comp {
-  height: 1900px;
+  height: 2266px;
   background-image: linear-gradient(
       to bottom,
       rgba(219, 219, 219, 1) ,
-      rgba(219, 219, 219, 0.087) , 
+      rgba(219, 219, 219, 0) , 
       rgba(219, 219, 219, 1) 
     );
   
@@ -252,15 +258,20 @@
 }
 
 .judicial__powers {
-  height: 700px;
+  height: 722px;
   text-align: center;
   padding-top: 20px;
   color: rgba(1, 5, 75, 1);
   font-size: 3rem;
   background-image: linear-gradient(
       to right,
-       rgba(219, 219, 219, 1) 45%,
-       rgba(219, 219, 219, 0.306)
+       rgba(219, 219, 219, 1) 40%,
+       rgba(219, 219, 219, 0.06)
+    ),
+    linear-gradient(
+      to top,
+      rgba(219, 219, 219, 0),
+      rgba(219, 219, 219, 1) 95%
     ),
     url("https://media.cnn.com/api/v1/images/stellar/prod/221031154056-01-scotus-affirmative-action-sketch.jpg?c=original");
     background-repeat: no-repeat;
@@ -271,8 +282,18 @@
 .jpowertext {
   text-align: left;
   padding-left: 30px;
-  padding-right: 900px;
+  padding-top: 20px;
+  width: 550px;
+  padding-right: 30px;
+  padding-bottom: 20px;
   font-size: 1.9rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.jpowertext:hover {
+  color: rgb(0, 3, 155);
+  background-color: rgba(1, 5, 75, 0.33);
+  border-radius: 20px;
 }
 
 .jpowerani {
@@ -285,15 +306,15 @@
 }
 
 .executive__powers {
-  height: 700px;
+  height: 722px;
   text-align: center;
   padding-top: 20px;
   color: rgba(1, 5, 75, 1);
   font-size: 3rem;
   background-image: linear-gradient(
       to right,
-       rgba(219, 219, 219, 1) 45%,
-       rgba(219, 219, 219, 0.306)
+       rgba(219, 219, 219, 1) 40%,
+       rgba(219, 219, 219, 0.06)
     ),
     url("https://obamawhitehouse.archives.gov/sites/default/files/image/image_file/p011614ps-0525.jpg");
     background-repeat: no-repeat;
@@ -304,8 +325,18 @@
 .epowertext {
   text-align: left;
   padding-left: 30px;
-  padding-right: 900px;
+  padding-right: 30px;
   font-size: 1.8rem;
+  padding-top: 20px;
+  width: 550px;
+  padding-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.epowertext:hover {
+  color: rgb(0, 3, 155);
+  background-color: rgba(1, 5, 75, 0.33);
+  border-radius: 20px;
 }
 
 .epowerani {
@@ -318,15 +349,20 @@
 }
 
 .legislative__powers {
-  height: 700px;
+  height: 722px;
   text-align: center;
   padding-top: 20px;
   color: rgba(1, 5, 75, 1);
   font-size: 3rem;
   background-image: linear-gradient(
       to right,
-       rgba(219, 219, 219, 1) 45%,
-       rgba(219, 219, 219, 0.306)
+       rgba(219, 219, 219, 1) 40%,
+       rgba(219, 219, 219, 0.06)
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(219, 219, 219, 0),
+      rgba(219, 219, 219, 1) 95%
     ),
     url("https://static.timesofisrael.com/www/uploads/2012/05/Obama_Health_Care_Speech_to_Joint_Session_of_Congress.jpg");
     background-repeat: no-repeat;
@@ -337,8 +373,18 @@
 .lpowertext {
   text-align: left;
   padding-left: 30px;
-  padding-right: 900px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  width: 550px;
   font-size: 1.8rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.lpowertext:hover {
+  color: rgb(0, 3, 155);
+  background-color: rgba(1, 5, 75, 0.33);
+  border-radius: 20px;
 }
 
 .lpowerani {
@@ -348,4 +394,10 @@
 
 .lpowerani.visible {
   opacity: 1;
+}
+
+.comparing__comp {
+  height: 1000px;
+  background-color: rgba(219, 219, 219, 1);
+  /* text-align: bottom; */
 }

@@ -54,7 +54,8 @@ const Powers = () => {
 			return () => observer.disconnect();
 		}, []);
 
-  return (
+	return (
+	  
 		<div className="powers__comp">
 			<div className="judicial__powers">
 				Judicial Powers
