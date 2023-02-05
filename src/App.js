@@ -4,7 +4,8 @@ import Transition from './components/Transition';
 import Header from './components/Header';
 import Theses from './components/Theses';
 import Powers from './components/Powers';
-import Comparing from './components/Comparing';
+import Checksnbalances from './components/Checksnbalances';
+// import Comparing from './components/Comparing';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Collumns />
       <Transition />
       <Powers />
-      <Comparing />
+      <Checksnbalances />
+      {/* <Comparing /> */}
     </div>
   );
 }
