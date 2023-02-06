@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Theses from './components/Theses';
 import Powers from './components/Powers';
 import Checksnbalances from './components/Checksnbalances';
-// import Comparing from './components/Comparing';
+import Comparing from './components/Comparing';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Transition />
       <Powers />
       <Checksnbalances />
-      {/* <Comparing /> */}
+      <Comparing />
     </div>
   );
 }
