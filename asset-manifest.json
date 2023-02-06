@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/threebranches/static/css/main.b821aa0a.css",
+    "main.js": "/threebranches/static/js/main.c0bcd9d9.js",
+    "index.html": "/threebranches/index.html",
+    "main.b821aa0a.css.map": "/threebranches/static/css/main.b821aa0a.css.map",
+    "main.c0bcd9d9.js.map": "/threebranches/static/js/main.c0bcd9d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b821aa0a.css",
+    "static/js/main.c0bcd9d9.js"
+  ]
+}
