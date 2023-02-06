@@ -444,6 +444,28 @@
 
 .comparing__comp {
 	height: 1000px;
-	background-color: rgba(219, 219, 219, 1);
-	/* text-align: bottom; */
+	background-image: linear-gradient(
+    to bottom,
+    rgba(219, 219, 219, 1),
+    rgba(219, 219, 219, 0)
+  ),
+  url('https://www.wane.com/wp-content/uploads/sites/21/2022/05/AP090412022437.jpg?strip=1');
+	text-align: center;
+}
+
+.comparing_title {
+  font-size: 7rem;
+  color: rgba(1, 5, 75, 1);
+}
+
+.comparingtext {
+  padding-top: 20px;
+  font-size: 3rem;
+  color: rgba(1, 5, 75, 1);
+  transition: all 0.9s ease-in-out;
+}
+
+.comparingtext:hover {
+  background-color: rgba(219, 219, 219, 0.33);
+  border-radius: 40px;
 }
